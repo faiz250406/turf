@@ -799,6 +799,7 @@ footer .symbol{
     }
     .title{
         font-size:50px;
+         top:40%;
     }
     .article7{
         height:300px;
@@ -812,10 +813,13 @@ footer .symbol{
     .add1, .add2{
         width:90%;
     }
+     .btn1{
+          display:none;
+     }
 
 }
 
-@media (max-width:430px){
+@media (max-width:426px){
     .info{
         display:flex;
     }
