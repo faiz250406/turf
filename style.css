@@ -1,0 +1,1180 @@
+html{
+     scroll-behavior: smooth;
+}
+body{
+    background-color:#D8F3DC;
+    background-image: url(images/background.jpg);
+    color:#FFFFFF;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile{
+    margin-left:10px;
+    margin-top:5px;
+}
+.bar{
+    border-radius:8px;
+    background-color:#344E41;
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content:space-between;
+}
+img{
+    cursor:pointer;
+}
+a{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+ .about p{
+    font-size:18px;
+}
+.about h2{
+    margin-top:20px;
+    color:#DAD7CD;
+    font-size:45px;
+}
+.abt{
+    font-size:32px;
+}
+.about{
+    width:100%;
+}
+.us{
+    width:50%;
+}
+.about1{
+    width:50%;
+}
+.about{
+    display:flex;
+    gap:10px;
+    img{
+        width:700px;
+        height:450px;
+    }
+}
+.about2{
+    margin-top:0px;
+}
+.symbol{
+    display:flex;
+}
+.about1{
+    font-size:larger;
+}
+.title3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    color:#F6FFF8;
+    font-size:40px;
+    margin-top:10px;
+    cursor:pointer;
+    margin-left:50px;
+}
+.info{
+    display:flex;
+    gap:10px;
+    cursor:pointer;
+    overflow-x:auto;
+    overflow-y:hidden;
+}
+.info img{
+    width:300px;
+    height:300px;
+}
+.info::-webkit-scrollbar{
+    display:none;
+}
+.info h3{
+    border:2px solid #2D6A4F;
+    border-radius:8px;
+    background-color:#2D6A4F;
+    color:#F5EBE0;
+    padding:10px;
+    margin-top:5px;  
+}
+.info h3:hover{
+    background-color: #40916C;
+    color:#FFFFFF;
+}
+.search{
+    width:200px;
+    height:35px;
+    background-color:#DAD7CD;
+    border:2px solid #DAD7CD;
+    border-radius:8px;
+    margin:10px;
+    cursor:pointer;
+}
+.search:hover{
+    background-color:#A3B18A ;
+    border:2px solid #A3B18A;
+}
+.article7{  
+    width:100%;
+    height:700px;
+    position:relative;
+}
+.title{
+    color:#DAD7CD;
+    font-size:150px;
+    margin: 0px 15px;
+    cursor:pointer;
+    position:absolute;
+    top:50%;
+}
+.title2{
+    margin-bottom:10px;
+}
+.article{
+    margin-top:20px;
+    display:flex;
+}
+.article2{
+    font-size:30px;
+    margin-left:50px;
+    img{
+        margin:2px;
+        cursor:pointer;
+    }
+}
+.article3{
+    display:flex;
+    width:100%;
+    margin:20px 0px;
+}
+.article4{
+    font-size:30px;
+    width:50%;
+    color:#DAD7CD;
+    h3{
+        margin-top:0px;
+        margin-bottom:0px;
+    }
+}
+.article4 h1{
+    margin-bottom:10px;
+}
+.article8{
+    width:50%;
+    height:450px;
+}
+.article5{
+    color:#FFFFFF;
+    cursor:pointer;
+    font-style:italic;
+    font-size:100px;
+    margin:0px 0px;
+}
+img{
+    border-radius:10px;
+}
+.info2{
+    background-color:#E5E5E5;
+    border:1px solid #E5E5E5;
+    color:black;
+    border-radius:8px;
+    padding:2px;
+}
+.desc{
+    display:flex;
+    justify-content:space-between;
+}
+.sports{
+    display:flex;
+    margin-top:20px;
+    gap:20px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    cursor:pointer;
+}
+.sports::-webkit-scrollbar{
+    display:none;
+}
+.turf{
+    position:relative;
+}
+.btn1{
+    font-size:24px;
+    width:150px;
+    height:60px;
+    background-color:#EEF5EA;
+    color:black;
+    border:1px solid #EEF5EA;
+    border-radius:8px;
+    position:absolute;
+    display:none;
+    top:60%;
+    left:5%;
+}
+.desc{
+    margin-top:2px;
+    color:whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:20px;
+    border:2px solid #588157;
+    border-radius:8px;
+    padding:5px;
+    background-color:#588157;
+}
+.turf:hover .btn1{
+    display:block;
+}
+.btn1:hover{
+    background-color: #40916C;
+    border:1px solid #40916C;
+    color:#FFFFF0;
+    cursor:pointer;
+}
+.sports img{
+    width:300px;
+    height:300px;
+}
+.kart{
+    display:flex;
+    width:100%;
+    img{
+        margin-top:20px;
+        width:55%;
+        height:500px;
+    }
+}
+.kart2{
+    margin-left:30px;
+    display:block;
+    width:45%;
+}
+.kart3{
+    font-size:50px;
+    color:#DAD7CD;
+    h1{
+    margin-top:10px;
+    margin-bottom:0px;}
+}
+.kart4{
+    font-size:30px;
+    margin:0px 0px;
+}
+.swim{
+    display:flex;
+    width:100%; 
+    img{
+        margin-top:20px;
+        width:50%;
+        height:500px;
+    }
+}
+.swim1{
+    display:block;
+    font-size:40px;
+    width:50%;
+    margin-left:40px;
+    color:#DAD7CD;
+    h1{
+    margin-top:10px;
+    margin-bottom:0px;}
+}
+.swim2{
+    font-size:30px;
+    color:#FFFFFF;
+
+}
+.turf .symbol p{
+    font-size:60px;
+}
+footer{
+    display:flex;
+    justify-content:space-around;
+    margin:0px;
+    margin-top:10px;
+    padding:10px 0px;
+    background-color:#1B4332;
+    border-radius:10px;
+    h3,h2{
+        color:#DAD7CD;
+        font-size:20px;
+        cursor:pointer;
+    }
+}
+footer h4{
+    cursor:pointer;
+    color:whitesmoke;
+}
+footer .symbol{
+    margin:40px 0px;
+}
+.foottitle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:italic;
+    color:#F6FFF8;
+    font-size:40px;
+    margin-top:10px;
+}
+.location, .kart6, .kart7{
+    display:none;
+}
+.contents h1{
+    margin-top:40px;
+    margin-bottom:0px;
+}
+.hr{
+    margin:0px;
+}
+.end{
+    display:flex;
+}
+#max{
+    margin-bottom:0px;
+}
+.add{
+    width:100%;
+    display:flex;
+    gap:15px;
+}
+.add1{
+    width:50%;
+    padding:10px;
+    border:2px solid black;
+    background-color:#588157;
+    border:2px solid #588157;
+    border-radius:10px;
+    color:whitesmoke;
+    margin:20px 10px;
+    font-size:20px;
+}
+.add2{
+    width:50%;
+    padding:10px;
+    border:2px solid #588157;
+    background-color:#588157;
+    border-radius:10px;
+    color:whitesmoke;
+    margin:20px 10px;
+    font-size:20px;
+}
+.add3{
+    display:flex;
+    gap:10px;
+}
+.add4{
+    width:50%;
+    height:100px;
+    border-radius:10px;
+    margin-top:10px;
+    background-color: #DAD7CD;
+    border:2px solid #DAD7CD;
+    padding:4px;
+    cursor:pointer;
+}
+.add5{
+    margin-top:10px;
+    width:50%;
+    height:50px;
+    border-radius:8px;
+    border:2px solid #B7E4C7;
+    background-color:#B7E4C7;
+    cursor:pointer;
+}
+.add7, .add8{
+    border-radius:5px;
+    height:40px;
+    border:2px solid #DAD7CD;
+    background-color: #DAD7CD;
+    padding:5px;
+    cursor:pointer;
+}
+#con{
+    margin-bottom:0px;
+}
+.add4:hover, .add7:hover, .add8:hover{
+    background-color:#A3B18A ;
+    border:2px solid #A3B18A;
+}
+.add5:hover{
+    background-color:#74C69D ;
+    border:2px solid #74C69D;
+}
+
+@media (max-width:1441px){
+    .title{
+        font-size:100px;
+    }
+    .swim1 h1{
+        font-size:100px;
+    }
+    .swim1{
+        width:700px;
+    }
+    .article7{
+        width:100%;
+        height:600px;
+    }
+}
+
+@media (max-width:1025px){
+    .info h3{
+        padding:6px;
+    }
+    .sports img{
+        width:280px;
+        height:280px;
+    }
+    .title{
+        font-size:85px;
+        margin:30px 0px;
+    }
+    .title2{
+        font-size:30px;
+    }
+    .kart{
+        font-size:20px;
+    }
+    .kart2{
+        margin-left:20px;
+    }
+    .kart3{
+        font-size:40px;
+        margin-right:10px;
+        h1{
+            margin-top:30px;
+        }
+    }
+    .kart4{
+        font-size:25px;
+    }
+    .kart img{
+        height:400px;
+    }
+    .swim img{
+        width:600px;
+        height:400px;
+    }
+    .swim1{
+        margin-top:30px;
+        margin-left:15px;
+        font-size:35px;
+    }
+    .swim1 h1{
+        font-size:85px;
+        margin-top:0px;
+    }
+    .swim2{
+        margin-top:0px;
+    }
+    .swim2{
+        font-size:25px;
+    }
+    .article4{
+        font-size:30px;
+    }
+    .article5{
+        font-size:70px;
+    }
+    .article7{
+        width:100%;
+        height:600px;
+    }
+    .article8{
+        width:800px;
+    }
+    .article2{
+        margin-left:15px;
+    }
+    .about img{
+        width:500px;
+    }
+    .about1 h2{
+        margin:0px;
+    }
+    .about1 p{
+        margin:0px;
+        margin-top:10px;
+    }
+    .add3{
+        width:100%;
+    }
+    .add7, .add8{
+        width:50%;
+    }
+     .add4, .add5{
+        width:97%;
+    }
+    
+}
+
+@media (max-width:942px){
+    .title{
+        font-size:70px;
+        margin-top:20px;
+        top:45%;
+    }
+    .title2{
+        font-size:25px;
+        margin-top:10px;
+    }
+    .icons{
+        width:40px;
+    }
+    .article7{
+        height:400px;
+    }
+    .swim1 h1{
+        font-size:70px;
+    }
+    .swim img{
+        width:400px;
+    }
+    .about1 p{
+        margin:0px;
+        margin-top:5px;
+    }
+    .about2{
+        margin-bottom:0px;
+    }
+    .about h2{
+        margin:0px;
+    }
+
+}
+
+@media (max-width:781px){
+    .article7{
+        width:100%;
+    }
+    .title{
+        top:40%;
+        margin:0px;
+    }
+    .about1{
+        margin-top:50px;
+    }
+    .about2, .about3{
+        display:none;
+    }
+    .about img{
+        width:370px;
+        height:250px;
+    }
+    .about1{
+        margin-top:20px;
+    }
+    .article3{
+        width:100%;
+        margin:40px 0px;
+    }
+    .article4{
+        width:50%;
+    }
+    .article4 h1{
+        margin-top:0px;
+        font-size:50px;
+    }
+    .article8{
+        width:50%;
+    }
+    .kart{
+        width:100%;
+    }
+    .kart2{
+        width:50%;
+    }
+    .kart3 h1{
+        font-size:65px;
+    }
+    .kart img{
+        width:50%;
+        height:370px;
+    }
+    .kart4{
+        font-size:23px;
+        margin-top:20px;
+    }
+    .swim{
+        width:100%;
+    }
+    .swim img{
+        width:50%;
+        height:370px;
+    }
+    .swim1 h1{
+        font-size:60px;
+        margin-top:20px;
+    }
+    .swim1{
+       width:50%;
+    }
+}
+
+
+@media (max-width:769px){
+    .info h3{
+        margin:4px;
+    }
+    .title{
+        font-size:80px;
+        margin:0px;
+        top:50%;
+    }
+    .title2{
+        margin:0px;
+    }
+    .icons{
+        width:25px;
+    }
+    .article2{
+        margin-left:10px;
+    }
+    .article4 h1{
+        margin:0px;
+    }
+    .article5{
+        font-size:80px;
+    }
+    .swim1 h1{
+        font-size:60px;
+        margin-top:30px;
+        margin-left:10px;
+    }
+    .swim1{
+        width:50%;
+    }
+    .swim img{
+        width:50%;
+        height:350px;
+    }
+    .kart{
+        width:100%;
+    }
+    .kart .cover{
+        width:50%;
+    }
+    .kart2{
+        width:50%;
+        margin-left:10px;
+    }
+    .kart3{
+        font-size:30px;
+        h1{
+         margin-top:40px;
+        } 
+    }
+    .info img{
+        width:280px;
+        height:280px;
+    }
+    .about img{
+        width:370px;
+        height:250px;
+    }
+    .about1{
+        margin-top:20px;
+    }
+    .about2, .about3{
+        display:none;
+    }  
+    .search{
+        width:180px;
+    }
+    .article4 h1{
+        font-size:45px;
+    }
+     .article7{
+        width:100%;
+        height:500px;
+    }
+    .article8{
+        width:50%;
+        height:400px;
+    }
+    .add4, .add5{
+        width:97%;
+    }
+}
+
+@media (max-width:481px){
+    .article7{
+       width:100%;
+       height:300px;
+    }
+    .title{
+        top:40%;
+        font-size:50px;
+    }
+    .title2{
+        font-size:23px;
+    }
+    .about , .abt{
+        display:none;
+    }
+    .article4 h1,h3{
+        font-size:30px;
+    }
+    .search{
+        width:150px;
+    }
+    .info h3{
+        font-size:18px;
+    }
+    .article8{
+        height:300px;
+    }
+    .swim .kart{
+        width:100%;
+    }
+    .swim img{
+        width:50%;
+        height:250px;
+    }
+    .kart img{
+        width:50%;
+        height:250px;
+    }
+    .info img{
+        width:200px;
+        height:200px;
+    }
+    .sports img{
+        width:190px;
+        height:190px;
+    }
+    .desc{
+        font-size:16px;
+    }
+    .contents h1{
+        font-size:23px;
+    }
+    .chn{
+        font-size:23px;
+    }
+    .swim1{
+        width:50%
+    }
+    .swim1{
+        margin-top:10px;
+    }
+    .swim2{
+        font-size:20px;
+        margin:0px;
+        margin-left:12px;
+    }
+    .swim1 h1{
+        font-size:35px;
+    }
+    .kart3 h1{
+        font-size:35px;
+    }
+    .kart4{
+        font-size:20px;
+    }
+    #max{
+        margin-bottom:0px;
+    }
+    .foot2 h2{
+        font-size:15px;
+    }
+    .foot2{
+        margin-right:15px;
+    }
+    .contents h1{
+        margin-top:30px;
+    }
+    .mika{
+        font-size:14px;
+    }
+     .add{
+      display:block;
+    }
+    .add1, .add2{
+        width:90%;
+    }
+}
+
+@media (max-width:439px){
+    .search{
+        display:none;
+    }
+    .location{
+        display:block;
+    }
+    .title{
+        font-size:50px;
+    }
+    .article7{
+        height:300px;
+    }
+    .contents h1{
+        margin-top:30px;
+    }
+    .add{
+      display:block;
+    }
+    .add1, .add2{
+        width:90%;
+    }
+
+}
+
+@media (max-width:426px){
+    .info{
+        display:flex;
+    }
+    .search{
+        display:none;
+    }
+    .contents h1{
+        font-size:25px;
+        margin-bottom:10px;
+    }
+    .sports{
+        margin-top:10px;
+    }
+    .article3{
+        width:100%;
+    }
+    .article4 h1{
+        font-size:30px;
+        margin-bottom:10px;
+    }
+    .article4 h3{
+        font-size:24px;
+    }
+    .article7{
+        width:100%;
+        height:250px;
+    }
+    .article8{
+        width:50%;
+    }
+    .title{
+        font-size:40px;
+        top:30%;
+    }
+    .title2{
+        margin:0px;
+
+    }
+    .sports img{
+        width:200px;
+        height:200px;
+    }
+    .info img{
+        width:180px;
+        height:180px;
+    }
+    .desc{
+        font-size:15px;
+    }
+    .slot{
+        display:none;
+    }
+    .kart img{
+        width:50%;
+        height:240px;
+    }
+    .swim img{
+        width:50%;
+        height:240px;
+    }
+    .swim{
+        width:100%;
+    }
+    .swim1{
+        width:50%;
+        margin-top:20px;
+        h1{
+            font-size:33px;
+            margin-top:10px;
+        } 
+    }
+    .kart{
+        width:100%;
+    }
+    .kart2{
+        width:50%;
+    }
+    .kart3 h1{
+        font-size:33px;
+        margin-top:25px;
+    }
+    .kart4{
+        font-size:20px;
+        margin-top:20px;
+    }
+    .foottitle{
+    font-size:30px;
+    margin-top:10px;
+    margin-bottom:10px;
+    }
+    .foot1{
+        margin-left:10px;
+    }
+    .foot2 h2{
+        font-size:12px;
+        margin:0px;
+    }
+    .foot3{
+        margin-left:10px;
+    }
+    .foot3 h4{
+        font-size:14px;
+        margin:10px 0px;
+        img{
+            width:10px;
+        }
+    }
+    .foot1 h4{
+        font-size:14px;
+        margin:10px 0px;
+        margin-left:5px;
+    }
+    .foot1 h3{
+        margin:0px;
+    }
+    .foot3 h3{
+        margin:0px;
+    }
+    .foot2 .logo{
+        width:50px;
+        height:40px;
+    }
+    .foot2 .symbol{
+        margin:20px 0px;
+    }
+    .location{
+        display:block;
+        margin-top:7px;
+        height:50px;
+    }
+    .chn{
+        font-size:25px;
+    }
+    .headtitle{
+        margin-top:7px;
+        width:50px;
+        height:50px;
+    }
+    .icons{
+        width:20px;
+    }
+    .info h3{
+        width:160px;
+        padding:3px;
+        margin:5px;
+    }
+    .title3{
+        margin-top:7px;
+        margin-left:0px;
+    }
+    .about{
+        display:none;
+    }
+    .contents h1{
+        margin-bottom:0px;
+    }
+}
+
+@media (max-width:376px){
+    .swim1 h1{
+        font-size:25px;
+    }
+    .swim2{
+        font-size:20px;
+    }
+    .article, .article3{
+        display:block;
+    }
+    .article4{
+        width:100%;
+        margin-bottom:10px;
+    }
+    .article7{
+        width:360px;
+        position:relative;
+    }
+    .title{
+        position:absolute;
+        top:35%;
+    }
+    .article8{
+        width:100%;
+    }
+    .swim{
+        display:block;
+    }
+    .swim img{
+        width:100%;
+    }
+    .swim2{
+        margin:0px;
+        h3{
+            font-size:18px;
+        }
+    }
+    .swim1{
+        margin-top:10px;
+        width:100%;
+        margin-left:10px;
+    }
+    .swim1 h1{
+        margin-top:0px;
+        font-size:29px;
+    }
+    .kart{
+        display:block;
+    }
+    .kart .cover{
+        width:100%;
+    }
+    .kart3, .kart4{
+        display:none;
+    }
+    .kart6, .kart7{
+        display:block;
+    }
+    .kart6 h1{
+        color:#DAD7CD;
+        font-size:29px;
+        margin-top:10px;
+    }
+    .kart6{
+        margin-left:10px;
+    }
+    .kart7{
+        font-size:20px;
+        margin:0px;
+        margin-left:10px;
+    }
+    .abt{
+        display:none;
+    }
+    .contents h1{
+        margin-top:22px;
+        margin-bottom:0px;
+    }
+    .kart6 h1{
+        margin:0px;
+        margin-bottom:6px;
+    }
+    .swim1 h1{
+        margin:0px;
+        margin-bottom:6px;
+    }
+    .swim1{
+        width:350px;
+    }
+    .chn{
+        margin-bottom:7px;
+    }
+    .article4 h3{
+        font-size:18px;
+    }
+    .add{
+      display:block;
+    }
+    .add1, .add2{
+        width:90%;
+    }
+     .add1 p{
+        font-size:18px;
+    }
+}
+
+@media (max-width:321px){
+    body{
+        margin:6px;
+    }
+    .article7{
+        width:300px;
+    }
+    .title2{
+        font-size:20px;
+    }
+    .article3{
+        width:100%;
+    }
+    .article8{
+        width:100%;
+        height:280px;
+    }
+    .swim img{
+        width:300px;
+    }
+    .kart img{
+        width:300px;
+    }
+    .foottitle{
+        font-size:15px;
+        margin:0px;
+        margin-top:3px;
+    }
+    .foot1{
+        width:95px;
+    }
+    .foot3{
+        margin:0px;
+    }
+    .foot2 .logo{
+        width:30px;
+        height:20px;
+    }
+    .foot1 h3, .foot3 h3{
+        font-size:15px;
+    }
+    .foot2 h2{
+        margin-top:50px;
+    }
+    .foot3 h4{
+        margin-bottom:2px;
+    }
+    .contents h1{
+        font-size:20px;
+    }
+    #max, .chn{
+        font-size:20px;
+    }
+    .swim2, .kart7{
+        margin-bottom:20px;
+    }
+    .title3{
+        font-size:35px;
+        margin:10px 0px;
+    }
+    .headtitle{
+        width:40px;
+        height:40px;
+        margin-top:10px;
+    }
+    .foot2{
+        margin: 0px 8px;
+    }
+    .kart6 h1{
+        margin:0px;
+        margin-bottom:6px;
+    }
+    .swim1 h1{
+        margin:0px;
+        margin-bottom:6px;
+    }
+    .contents h1{
+        margin-bottom:0px;
+    }
+    .swim1{
+        width:300px;
+    }
+    .article4 h3{
+        font-size:18px;
+    }
+    .add1, .add2{
+        margin:5px;
+    }
+    .add1 p{
+        font-size:15px;
+    }
+    .add1 h2{
+        font-size:25px;
+    }
+    .add2 h3{
+        font-size:25px;
+    }
+}
