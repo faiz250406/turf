@@ -815,7 +815,7 @@ footer .symbol{
 
 }
 
-@media (max-width:426px){
+@media (max-width:430px){
     .info{
         display:flex;
     }
