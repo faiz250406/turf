@@ -816,6 +816,39 @@ footer .symbol{
      .btn1{
           display:none;
      }
+     .kart img{
+        width:50%;
+        height:240px;
+    }
+    .swim img{
+        width:50%;
+        height:240px;
+    }
+    .swim{
+        width:100%;
+    }
+    .swim1{
+        width:50%;
+        margin-top:20px;
+        h1{
+            font-size:33px;
+            margin-top:10px;
+        } 
+    }
+    .kart{
+        width:100%;
+    }
+    .kart2{
+        width:50%;
+    }
+    .kart3 h1{
+        font-size:33px;
+        margin-top:25px;
+    }
+    .kart4{
+        font-size:20px;
+        margin-top:20px;
+    }
 
 }
 
